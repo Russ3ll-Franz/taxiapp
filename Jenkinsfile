@@ -13,7 +13,7 @@ pipeline {
         
     stage('Install dependencies') {
       steps {
-        sh 'nvm install node'
+        sh 'npm install'
       }
     }
      
